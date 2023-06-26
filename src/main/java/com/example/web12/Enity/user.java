@@ -26,7 +26,7 @@ public class user {
   private String password;
   @Column(name = "email")
   private String email;
-  @Column(name = "authentio")
+  @Column(name = "authentic")
   private String authentic;
 
   public user(String username,String password, String email,String authentic){
